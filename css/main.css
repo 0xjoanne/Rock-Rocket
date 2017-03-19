@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #1869A0;
+	font-family: sans-serif;
+}
+body{
+	text-align: center;
+	background: #fafaff;
+}
+.main-header{
+	width: 700px;
+	padding-bottom: 20px;
+	margin: 40px auto 30px;
+	color: #3C5D73;
+	border-bottom: 1px solid rgba(133,205,253,0.3);
+}
+.main-header h1,
+.main-aside h3,
+.disclaimer{
+	color: #DC5F5E;
+}
+.main-content{
+	width: 310px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+canvas{
+	border:3px solid #3C5D73;
+	float: left;
+}
+.main-aside{
+	background: rgba(133,205,253,0.3);
+	width: 148px;
+	height: 466px;
+	padding: 20px;
+	float: left;
+	text-align: left;
+}
+.main-aside h3{
+	line-height: 50px;
+}
+.control-info{
+	margin-bottom: 20px;
+}
+.control-info li{
+	line-height: 24px;
+	font-size: 13px;
+	list-style: disc;
+	margin: 0 0 10px 20px;
+	text-indent: 0.5em;
+
+}
+.disclaimer{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.dialog {
+	display:none;
+	background:rgba(0,0,0,0.6);
+	width:250px;
+	height:140px;
+	position:absolute;
+	left:28px;
+	top: 220px;
+	padding-top:20px;
+	margin-top:-80px;
+}
+.dialog h1,
+.dialog p,
+.dialog span,
+.restart-btn{
+	color: white;
+}
+.dialog p {
+	line-height: 24px;
+}
+.restart-btn{
+	width: 100px;
+	height: 50px;
+	background: #DC5F5E;
+	border: none;
+	font-size: 16px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.mask{
+	background:rgba(0,0,0,0.5);
+	width: 305px;
+	height: 505px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rocket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header class="main-header">
+ 		<h1>Rock Rocket!</h1>	
+	</header>
+ 	<main class="main-content">
+ 		<canvas id="canvas" width="300" height="500"></canvas>
+ 		<!-- <aside class="main-aside">
+ 			<div class="control-info">
+ 				<h3>How to Play</h3>
+ 				<ul>
+ 					<li>Move left or right to avoid obstacles</li>
+ 					<li>&lt;space&gt; key -- pause game</li>
+ 					<li>&lt;enter&gt; key -- continue game</li>
+ 				</ul>
+	 		</div>
+ 		</aside> -->
+
+ 		<!-- gameover window -->
+ 		<div class="dialog">
+	 		<h1>GAME OVER!</h1>
+			<p>Score: <span id="JS_score"></span>s</p>
+			<button class="restart-btn">Start Again</button>
+	 	</div>
+ 	</main>
+ 	<footer class="main-footer">
+ 		<p class="disclaimer">This is game is being used for educational purposes and is not to be sold.</p>
+ 	</footer>
+ 	<!-- sound -->
+ 	<audio id="punch-sound" preload="auto">
+ 		<source src="sound/punch.mp3"></source>
+ 		This browser does not support the HTML5 audio tag.
+ 	</audio>
+ 	
+	<!-- script -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/rocket.js"></script>
+</body>
+</html>
